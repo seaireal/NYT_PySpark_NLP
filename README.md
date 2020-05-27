@@ -1,2 +1,1 @@
-# NYT_PySpark_NLP
-Scrape, clean, and deposit articles in a NoSQL database for NLP analysis with PySpark and spaCy
+The purpose of the project was to query the NYT API to collect and deposit metadata on selected articles into a NoSQL database using TinyDB. The metadata was then used to scrape and collect full articles. Cleaned articles as well as selected metadata were deposited into another NoSQL database. The database containing full articles were queried by keywords. The similarity of matched articles was computed (1) by intersection of words in two articles using RDD; (2) by comparing word vectors (multi-dimensional meaning representations of a word) using an NLP library spacy. Worldcloud and heatmap were used visualization.
